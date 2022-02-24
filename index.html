@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font-Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style css  -->
+    <link rel="stylesheet" href="style/index.css">
+    <!-- style JS -->
+    <script defer src="index.js"></script>
+
+
+    <title>Where in tem worled</title>
+</head>
+<body class="light">
+    <header>
+        <nav>
+            <h1>Where in tem worled</h1>
+            <h2 id="mode" ><i class="fa-solid fa-sun"></i> light Mode</h2>
+        </nav>
+    </header>
+
+    <section class="search">
+        <form action="">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="sersh your country...." class="light" id="sersh_her">
+        </form>
+        <ul>
+            <li id="Filter" class="light">Filter By Region <i class="fa-solid fa-angle-down"></i></li>
+        </ul>
+    </section>
+            <ul class="up_Fliter light">
+                <li class="option">All</li>
+                <li class="option"> Africa </li>
+                <li class="option"> Americas </li>
+                <li class="option"> Asia </li>
+                <li class="option"> Europe </li>
+                <li class="option"> Oceania </li>
+            </ul>
+
+            <!-- start style the card contery -->
+            <section  id="sec_API" >
+            </section>
+            <!-- end style the card contery -->
+            <section class="information_coun light show"></section>
+
+
+
+</body>
+</html>
